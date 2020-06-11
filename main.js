@@ -2,6 +2,22 @@
  * Your code here!
  ******************************************************************************/
 
+ function getNames() {
+  const firstName = getInput(0)
+  const lastName = getInput (1)
+ }
+
+ function getInitials(first,last) {
+   return first[0] + '.' + last[0] + '.';
+ }
+
+ const initials = getInitials(firstName, lastName);
+
+ const nameLength = firstName.length + lastName.length;
+ 
+ const message = 'Hey, ' + initials + ' Mind if I call you that? Your full name is' + firstName, lastName + ' letters long!';
+
+console.log(message)
 
 
 /*******************************************************************************
